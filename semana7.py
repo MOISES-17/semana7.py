@@ -9,8 +9,8 @@ def verificar_contrasena():
     if "contrasena_ingresada" not in st.session_state:
         st.session_state.contrasena_ingresada = ""
 
-        #imput de la contraseña
-        contrasena_ingresada = st.text_input("ingrese la contraseña", type="password")
+     #imput de la contraseña
+    contrasena_ingresada = st.text_input("ingrese la contraseña", type="password")
 
     #boton para verificar la contraseña
     if st.button("verificar"):
@@ -18,7 +18,7 @@ def verificar_contrasena():
             st.session_state.contrasena_ingresada = contrasena_ingresada
             st.success("bienvenido")
         else:
-                st.error("contraseña_incorrecta, intente de nuevo")
+            st.error("contraseña_incorrecta, intente de nuevo")
 
 
 #llamada la funcion principal
