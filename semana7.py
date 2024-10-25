@@ -10,7 +10,7 @@ def verificar_contrasena():
         st.session_state.contrasena_ingresada = ""
 
         #imput de la contraseña
-        contrasena_ingresada = st.text_input("ingrese la contraseña",type="pasword")
+        contrasena_ingresada = st.text_input("ingrese la contraseña", type="password")
 
     #boton para verificar la contraseña
     if st.button("verificar"):
