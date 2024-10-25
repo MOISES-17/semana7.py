@@ -12,12 +12,12 @@ def verificar_contrasena():
         #imput de la contraseña
         contrasena_ingresada = st.text_input("ingrese la contraseña",type="pasword")
 
-        #boton para verificar la contraseña
-        if st.button("verificar")
-            if contrasena_ingresada == contrasena_correcta
+    #boton para verificar la contraseña
+     if st.button("verificar")
+        if contrasena_ingresada == contrasena_correcta
             st.session_state.contrasena_ingresada = contrasena_ingresada
             st.success("bienvenido")
-            else:
+        else:
                 st.error("contraseña_incorrecta, intente de nuevo")
 
 
