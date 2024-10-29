@@ -1,10 +1,10 @@
 import streamlit as st
     
-    #ejercicio5: generar e imprimir los numeros pares entre 0 y 100
-    st.title("ejercicios de numeros pares")
+    #Ejercicio5: generar e imprimir los numeros pares entre 0 y 100
+    st.title("Ejercicios de números pares")
 
-    st.subheader("ejercicio 5: Numeros pares entre 0 y 100")
+    st.subheader("ejercicio 5: Números pares entre 0 y 100")
     pares_0_100 = (i for i in range(0,101) if i % 2 == 0)
-    st.write("Numeros pares entre 0 y 100:")
+    st.write("Números pares entre 0 y 100:")
     st.white(pares_0_100)
     
