@@ -39,5 +39,5 @@ def main():
         st.write(f"Resultado: {resultado}")
 
     if __name__== "__main__":
-        main()
+    main()
   
