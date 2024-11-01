@@ -1,4 +1,5 @@
-import streamlit as streamlit
+import streamlit as st
+
 def validar_datos(marca, modelo, kilometraje):
   """Valida los datos del automóvil.
 
@@ -20,6 +21,7 @@ def validar_datos(marca, modelo, kilometraje):
     return False
 
   return True
+
 def main():
   """Muestra la interfaz de usuario para ingresar los datos del automóvil."""
 
@@ -37,5 +39,6 @@ def main():
       st.write(f"Kilometraje: {kilometraje}")
     else:
       st.error("Por favor, corrija los datos ingresados.")
+
 if __name__ == "__main__":
-     main()
+  main()
