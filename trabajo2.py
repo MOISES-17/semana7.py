@@ -8,9 +8,10 @@ def calcular_perimetro(radio):
     return 2 * math.pi * radio
 
 def main():
-    st.title("calcular del Area y Perimetro de una Circurferencia")
+    st.title("Calcular del Area y Perimetro de una Circunferencia")
 
-    radio = st.number_input("ingrese el radio de la circurferencia:", min_values=0.0, step=0.1)
+    radio = st.number_input("Ingrese el radio de la circunferencia:", min_values=0.0, step=0.1)
+    
     if radio > 0:
         area = calcular_area(radio)
         perimetro = calcular_perimetro(radio)
