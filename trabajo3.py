@@ -15,7 +15,7 @@ def division(a,b):
     else:
         return "error: Division por cero"
 
- def main()
+ def main():
     st.title("Calculadora Basica")
 
     #entrada de datos
