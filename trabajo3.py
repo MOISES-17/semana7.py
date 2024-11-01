@@ -38,6 +38,6 @@ def main():
         #mostrar resultados
         st.write(f"Resultado: {resultado}")
 
-    if __name__== "__main__":
+if __name__== "__main__":
     main()
   
