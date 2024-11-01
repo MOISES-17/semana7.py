@@ -23,7 +23,7 @@ def main():
     numero2 =st.nunber_input("Ingrese el segundo numero:", format="%f")
 
     #seleccion de operacion
-    operacion = st.selectbox("Selecione la operacion", ("suma," "resta", "multiplicacion", "division"))
+    operacion = st.selectbox("Selecione la operacion", ("suma", "resta", "multiplicacion", "division"))
 
     #realizar la operacion seleccionada 
     if operacion == "suma":
