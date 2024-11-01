@@ -16,7 +16,7 @@ def division(a,b):
         return "error: Division por cero"
 
 def main():
-    st.title("Calculadora basica")
+    st.title("Calculadora Basica")
 
     #entrada de datos
     numero1 = stnumber_input("Ingrese el primer numero:", format="%f")
