@@ -37,5 +37,5 @@ def main():
       st.write(f"Kilometraje: {kilometraje}")
     else:
       st.error("Por favor, corrija los datos ingresados.")
-if __name__ == "__main__":
-    main()
+ if __name__ == "__main__":
+     main()
