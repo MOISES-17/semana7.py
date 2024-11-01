@@ -23,7 +23,7 @@ def validar_datos(marca, modelo, kilometraje):
 def main():
   """Muestra la interfaz de usuario para ingresar los datos del automóvil."""
 
-  st.title("Registro de Automóviles")
+  st.title("g de Automóviles")
 
   marca = st.text_input("Marca:")
   modelo = st.text_input("Modelo:")
@@ -38,4 +38,4 @@ def main():
     else:
       st.error("Por favor, corrija los datos ingresados.")
 if __name__ == "__main__":
-     main()
+    main()
